@@ -1,0 +1,5 @@
+Terminal command
+npx parcel src/index.html
+
+------------------
+Browser:  http://localhost:1234 
