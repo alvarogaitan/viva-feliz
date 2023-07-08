@@ -1,5 +1,12 @@
 Terminal command
 npx parcel src/index.html
 
-------------------
+--------------------------------
 Browser:  http://localhost:1234 
+
+============= Netlify URL ==========
+
+https://main--voluble-cranachan-d0a5b4.netlify.app/
+
+============================
+DEPLOYS FROM: github.com/alvarogaitan/viva-feliz.
