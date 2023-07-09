@@ -103,3 +103,8 @@ hr,
     background: inherit;
   }
 }
+
+p.agregado {
+  font-size: 2em;
+  color: red;
+}

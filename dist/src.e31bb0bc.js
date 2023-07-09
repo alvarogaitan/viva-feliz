@@ -32084,7 +32084,7 @@ function App() {
   }, 0);
   document.title = "".concat(hazards, " potential HAZARDS ").concat(hazards > 0 ? '😱' : '👍');
   var results = data.result.near_earth_objects[day];
-  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, (0, _format.default)((0, _addDays.default)(new Date(), 1), 'EEEE d-MMM'), " there will be", ' ', /*#__PURE__*/_react.default.createElement("strong", null, results.length), " `near misses` se cambi\xF3 por `Cerdos Voladores`"), /*#__PURE__*/_react.default.createElement("hr", null), results.sort(function (a) {
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, (0, _format.default)((0, _addDays.default)(new Date(), 1), 'EEEE d-MMM'), " there will be", ' ', /*#__PURE__*/_react.default.createElement("strong", null, results.length), " `near misses` se cambi\xF3 por `Cerdos Voladores`"), /*#__PURE__*/_react.default.createElement("h2", null, "Prueba de  Agregar texto en App.js file y tener respuesta inmediata en el navegador."), /*#__PURE__*/_react.default.createElement("hr", null), results.sort(function (a) {
     return a.is_potentially_hazardous_asteroid ? -1 : 1;
   }).map(function (data) {
     return /*#__PURE__*/_react.default.createElement(_Orbital.default, _extends({
@@ -32130,7 +32130,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50828" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53512" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
